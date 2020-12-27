@@ -11,8 +11,8 @@ export class Place {
   @Column()
   name: string;
 
-  @Column()
-  address_name: string;
+  @Column({ name: 'address_name' })
+  addressName: string;
 
   @Column()
   description: string;
